@@ -20,7 +20,7 @@
       <viewAttribute id="HISTORIAL"/>
     </viewAttributes>
     <calculatedViewAttributes>
-      <calculatedViewAttribute id="RATIO" datatype="INTEGER" expressionLanguage="COLUMN_ENGINE">
+      <calculatedViewAttribute id="NUMERO" datatype="INTEGER" expressionLanguage="COLUMN_ENGINE">
         <formula>1</formula>
       </calculatedViewAttribute>
     </calculatedViewAttributes>
@@ -29,40 +29,40 @@
 </calculationViews>
 <logicalModel id="Projection_1">
   <attributes>
-    <attribute id="CODIGO_CLIENTE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CODIGO_CLIENTE" order="1" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="CODIGO_CLIENTE"/>
       <keyMapping columnObjectName="Projection_1" columnName="CODIGO_CLIENTE"/>
     </attribute>
-    <attribute id="EMPRESA" order="3" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="EMPRESA" order="2" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="EMPRESA"/>
       <keyMapping columnObjectName="Projection_1" columnName="EMPRESA"/>
     </attribute>
-    <attribute id="DIRECCION" order="4" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DIRECCION" order="3" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="DIRECCION"/>
       <keyMapping columnObjectName="Projection_1" columnName="DIRECCION"/>
     </attribute>
-    <attribute id="POBLACION" order="5" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="POBLACION" order="4" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="POBLACION"/>
       <keyMapping columnObjectName="Projection_1" columnName="POBLACION"/>
     </attribute>
-    <attribute id="TELEFONO" order="6" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="TELEFONO" order="5" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="TELEFONO"/>
       <keyMapping columnObjectName="Projection_1" columnName="TELEFONO"/>
     </attribute>
-    <attribute id="RESPONSABLE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="RESPONSABLE" order="6" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="RESPONSABLE"/>
       <keyMapping columnObjectName="Projection_1" columnName="RESPONSABLE"/>
     </attribute>
-    <attribute id="HISTORIAL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="HISTORIAL" order="7" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="HISTORIAL"/>
       <keyMapping columnObjectName="Projection_1" columnName="HISTORIAL"/>
     </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
-    <measure id="RATIO" order="1" aggregationType="count" measureType="simple">
-      <descriptions defaultDescription="RATIO"/>
-      <measureMapping columnObjectName="Projection_1" columnName="RATIO"/>
+    <measure id="NUMERO" order="8" aggregationType="count" measureType="simple">
+      <descriptions defaultDescription="NUMERO"/>
+      <measureMapping columnObjectName="Projection_1" columnName="NUMERO"/>
     </measure>
   </baseMeasures>
   <calculatedMeasures/>
